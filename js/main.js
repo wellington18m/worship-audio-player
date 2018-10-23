@@ -21,7 +21,7 @@ audio = new Audio();
 let songs=[
  "Al Estar Ante Ti", "Al Final", "All For Love","Alza tus Ojos",
  "Angel Of The Lord", "Arrebato","At the Crosss","Dame Tus Ojos",
- "De tal Manera Me amo","Desert","Esta Es Mi Fe","Here I Am To Worship",
+ "De tal Manera Me amo","Desert Song","Esta Es Mi Fe","Here I Am To Worship",
  "I Adore","Here In My Life","Hinno De Victoria","Hombres De Valor","Hoy Te Vengo a Bendecir",
   "I Belong To You","I Give You My Heart","I Will Love","I Will Run To You", "Iglesia",
   "La Niña de Tus Ojos", "Oceans Will Part","Open My Eyes","Por Un Destello De Tu Gloria",
