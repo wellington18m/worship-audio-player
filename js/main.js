@@ -285,7 +285,7 @@ search.addEventListener("keypress",(e)=>{
                    
                   audio.src=dir+value+ext;
                   audio.play();
-                 
+                 search.value="";
              }                  
              
           
@@ -297,7 +297,7 @@ search.addEventListener("keypress",(e)=>{
 search.addEventListener("keyup",()=>{
          
          for(i=0; i< li.length; i++){
-              if(li[i].innerHTML.toLowerCase().indexOf(search.value) >-1){
+              if(li[i].innerHTML.toLowerCase().indexOf(search.value.toLowerCase()) >-1){
                    li[i].style.display="";
               }else{
                 li[i].style.display="none";
