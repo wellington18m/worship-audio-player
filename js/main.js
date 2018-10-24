@@ -1,4 +1,4 @@
-let audio; //document.getElementById("audio");
+let audio; //= document.getElementById("audio");
 let play = document.getElementById("play");
 let pause = document.getElementById("pause");
 let prev = document.getElementById("prev");
@@ -59,14 +59,14 @@ let count =0;
  audio.src=dir+songs[count]+ext;
 
 $("#pause").hide()
- let num = 0;
+ 
 for(let i=0; i<songs.length; i++){
 	    
          let li = document.createElement("li");
         let node = document.createTextNode(songs[i]);
           li.append(node);
           
-          ul.append(num+=1,li);
+          ul.append(li);
          
  }
 
@@ -201,8 +201,7 @@ function displaySongInfo(){
 $("#next").on("click", ()=>{
 	       nextSong();
           SongPlaying();
-         randomImg();
-         trackStatus();
+          trackStatus();
 })
 
 $("#prev").on("click", ()=>{
@@ -271,4 +270,42 @@ volume.addEventListener("change", ()=>{
 });
 
 
+
+
 setInterval(updateSlider, 1000)
+
+let search = document.getElementById("search");
+
+search.addEventListener("keypress",(e)=>{
+        let value =search.value 
+       
+     
+         if(e.which===13){
+                    
+                   
+              let au = audio.src=dir+value+ext;
+                  audio.play();
+                 console.log(au)
+             }                  
+             
+          
+            
+     
+       
+})
+
+
+search.addEventListener("keyup",()=>{
+         console.log(1)
+         for(i=0; i< li.length; i++){
+              if(li[i].innerHTML.toLowerCase().indexOf(search.value) >-1){
+                   li[i].style.display="";
+              }else{
+                li[i].style.display="none";
+
+              }
+
+         }
+    
+       
+})
