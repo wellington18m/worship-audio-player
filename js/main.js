@@ -295,7 +295,7 @@ search.addEventListener("keypress",(e)=>{
 })
 
 search.addEventListener("keyup",()=>{
-         console.log(1)
+         
          for(i=0; i< li.length; i++){
               if(li[i].innerHTML.toLowerCase().indexOf(search.value) >-1){
                    li[i].style.display="";
@@ -307,4 +307,8 @@ search.addEventListener("keyup",()=>{
          }
     
        
+
 })
+
+
+
