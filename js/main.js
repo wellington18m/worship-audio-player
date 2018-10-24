@@ -277,15 +277,15 @@ setInterval(updateSlider, 1000)
 let search = document.getElementById("search");
 
 search.addEventListener("keypress",(e)=>{
-        let value =search.value 
+        let value = search.value 
        
      
          if(e.which===13){
                     
                    
-              let au = audio.src=dir+value+ext;
+                  audio.src=dir+value+ext;
                   audio.play();
-                 console.log(au)
+                 
              }                  
              
           
@@ -309,6 +309,3 @@ search.addEventListener("keyup",()=>{
        
 
 })
-
-
-
