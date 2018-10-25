@@ -279,15 +279,28 @@ let search = document.getElementById("search");
 search.addEventListener("keypress",(e)=>{
         let value = search.value; 
        
-     
+      
          if(e.which===13){
-                    
+                    let str = value;
+                  let split = str.split(" ");
+                  let firstUpper="";
+
+                  for(var i=0;i<split.length;i++){
+                     firstUpper +=  split[i].charAt(0).toUpperCase() + split[i].slice(1) + " ";
+                     
+
+                  }
                    
-                  audio.src=dir+value+ext;
+                  audio.src=dir+firstUpper.trim()+ext;
                   audio.play();
                   search.value="";
+                   console.log(firstUpper.trim()+ext)
              }                  
              
+          
+           $("#play").hide();
+           $("#pause").show();
+     
           
             
      
