@@ -26,7 +26,7 @@ let songs=[
   "I Belong To You","I Give You My Heart","I Will Love","I Will Run To You", "Iglesia",
   "La Niña De Tus Ojos", "Oceans Will Part","Open My Eyes","Por Un Destello De Tu Gloria",
   "Que sería De Mí","Shout To The Lord","Sin Dolor","Sumérgeme","Supe Que Me Amabas",
-  "The Heart Of Worship","The Power Of Your Love","Tu Estas Aqui","Un Viaje Largo","Vine Adorarte",
+  "The Heart Of Worship","The Power Of Your Love","Tú Estas Aquí","Un Viaje Largo","Vine Adorarte",
   "With All I Am"
 ];
 
