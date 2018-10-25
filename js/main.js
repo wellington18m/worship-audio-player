@@ -294,12 +294,13 @@ search.addEventListener("keypress",(e)=>{
                   audio.src=dir+firstUpper.trim()+ext;
                   audio.play();
                   search.value="";
-                   console.log(firstUpper.trim()+ext)
+		  $("#play").hide();
+                  $("#pause").show();
+                   
              }                  
              
           
-           $("#play").hide();
-           $("#pause").show();
+          
      
           
             
