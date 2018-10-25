@@ -19,14 +19,14 @@ let ext = ".mp3";
 audio = new Audio();
 
 let songs=[
- "Al Estar Ante Ti", "Al Final", "All For Love","Alza tus Ojos",
- "Angel Of The Lord", "Arrebato","At the Crosss","Dame Tus Ojos",
- "De tal Manera Me amo","Desert Song","Esta Es Mi Fe","Here I Am To Worship",
- "I Adore","Here In My Life","Hinno De Victoria","Hombres De Valor","Hoy Te Vengo a Bendecir",
+ "Al Estar Ante Ti", "Al Final", "All For Love","Alza Tus Ojos",
+ "Angel Of The Lord", "Arrebato","At The Crosss","Dame Tus Ojos",
+ "De Tal Manera Me Amo","Desert Song","Esta Es Mi Fe","Here I Am To Worship",
+ "I Adore","Here In My Life","Hinno De Victoria","Hombres De Valor","Hoy Te Vengo A Bendecir",
   "I Belong To You","I Give You My Heart","I Will Love","I Will Run To You", "Iglesia",
-  "La Niña de Tus Ojos", "Oceans Will Part","Open My Eyes","Por Un Destello De Tu Gloria",
-  "Que sería de mí","Shout to the Lord","Sin Dolor","Sumérgeme","Supe Que Me Amabas",
-  "The Heart Of Worship","The Power Of Your Love","Tú Estas Aquí","Un Viaje Largo","Vine Adorarte",
+  "La Niña De Tus Ojos", "Oceans Will Part","Open My Eyes","Por Un Destello De Tu Gloria",
+  "Que sería De Mí","Shout To The Lord","Sin Dolor","Sumérgeme","Supe Que Me Amabas",
+  "The Heart Of Worship","The Power Of Your Love","Tu Estas Aqui","Un Viaje Largo","Vine Adorarte",
   "With All I Am"
 ];
 
