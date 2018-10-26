@@ -20,15 +20,15 @@ audio = new Audio();
 
 let songs=[
  "Al Estar Ante Ti", "Al Final", "All For Love","Alza tus Ojos",
- "Angel Of The Lord", "Arrebato","At the Crosss","Dame Tus Ojos",
- "De tal Manera Me amo","Desert Song","Esta Es Mi Fe","Here I Am To Worship",
+ "Angel Of The Lord", "Arrebato","At the Cross","Dame Tus Ojos",
+ "De tal Manera Me amo","Desert","Esta Es Mi Fe","Here I Am To Worship",
  "I Adore","Here In My Life","Hinno De Victoria","Hombres De Valor","Hoy Te Vengo a Bendecir",
   "I Belong To You","I Give You My Heart","I Will Love","I Will Run To You", "Iglesia",
   "La Niña de Tus Ojos", "Oceans Will Part","Open My Eyes","Por Un Destello De Tu Gloria",
-  "Que sería de mí","Shout to the Lord","Sin Dolor","Sumérgeme","Supe Que Me Amabas",
-  "The Heart Of Worship","The Power Of Your Love","Tú Estas Aquí","Un Viaje Largo","Vine  Adorarte",
-  "With All I Am"
-];
+  "Que seria de mi","Shout to the Lord","Sin Dolor","Sumergeme","Supe Que Me Amabas",
+  "The Heart Of Worship","The Power Of Your Love","Tu Estas Aqui","Un Viaje Largo","Vine Adorarte",
+  "With All I Am", "Como Un Perfume a Tus Pies", "Tal Como Soy","A Sus Pies"
+]
 
 let artists=[
  "Abel Zavala", "Lyli Goodman", "Hillsong","Marcos Barrientos",
@@ -39,7 +39,7 @@ let artists=[
   "Daniel Calveti", "Hillsong","Hillsong","Jesús Adrian Romero",
   "Jesus Adrian Romero","Hillsong","Lyli Goodman","Jesús Adrian Romero","Marcela Gandara",
   "Hillsong","Hillsong","Jesus Adrian Romero","Marcela Gandara","Marcela Gandara",
-  "Hillsong"
+  "Hillsong","Marcela Gandara", "Jesús Adrian Romero", "Jesús Adrian Romero"
 ];
 
 let file = ".jpg";
@@ -72,7 +72,7 @@ for(let i=0; i<songs.length; i++){
 
  const trackStatus = () =>{
   songTitle.innerHTML=songs[count];
-  songArtist.innerHTML=artists[count];
+  songArtist.innerHTML= 'Playing: ' + artists[count];
  }
 
  
@@ -160,7 +160,7 @@ function displaySongInfo(){
  	 $("#play").click(()=>{
         setTimeout(showDuration,1000);
           audio.play();
-	 	displaySongInfo();
+	 	  displaySongInfo();
         $("#play").hide();
         $("#pause").show();
          SongPlaying();
@@ -218,6 +218,7 @@ $("#stop").on("click", ()=>{
         audio.pause();
         count=0;
         audio.currentTime=0;
+        audio.duration=0;
         $("#play").show();
         $("#pause").hide();
 
@@ -271,34 +272,52 @@ volume.addEventListener("change", ()=>{
 
 
 
-
-setInterval(updateSlider, 1000)
+       
 
 let search = document.getElementById("search");
 
 search.addEventListener("keypress",(e)=>{
-        let value =search.value 
-       
-     
+        
+      
          if(e.which===13){
-                    
+                    let value = search.value; 
+                  let str = value;
+                  let split = str.split(" ");
+                  let firstUpper="";
+                  for(var i=0;i<split.length;i++){
+                     firstUpper +=  split[i].charAt(0).toUpperCase() + split[i].slice(1) + " ";
+                     
+                  }
                    
-              let au = audio.src=dir+value+ext;
+                  audio.src=dir+firstUpper.trim()+ext;
                   audio.play();
-                 console.log(au)
-             }                  
+                  setTimeout(showDuration,1000);
+                  search.value="";
+                  // $("#play").hide();
+                  // $("#pause").show();
+                  for(i=0; i< li.length; i++){
+                                               
+                   if(value.toLowerCase() == li[i].innerHTML.toLowerCase()){
+                      console.log(li[i].classList.add("style"))
+
+                   }else{
+                    console.log("False")
+                   }
+                 
+                }
+    
+                  
+      }                  
              
           
-            
-     
+           
        
 })
 
-
 search.addEventListener("keyup",()=>{
-         console.log(1)
+         
          for(i=0; i< li.length; i++){
-              if(li[i].innerHTML.toLowerCase().indexOf(search.value) >-1){
+              if(li[i].innerHTML.toLowerCase().indexOf(search.value.toLowerCase()) >-1){
                    li[i].style.display="";
               }else{
                 li[i].style.display="none";
@@ -308,4 +327,11 @@ search.addEventListener("keyup",()=>{
          }
     
        
+
 })
+
+
+
+
+
+setInterval(updateSlider, 1000)
