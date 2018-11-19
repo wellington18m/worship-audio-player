@@ -27,7 +27,7 @@ let songs=[
   "La Niña de Tus Ojos", "Oceans Will Part","Open My Eyes","Por Un Destello De Tu Gloria",
   "Que seria de mi","Shout to the Lord","Sin Dolor","Sumergeme","Supe Que Me Amabas",
   "The Heart Of Worship","The Power Of Your Love","Tu Estas Aqui","Un Viaje Largo","Vine Adorarte",
-  "With All I Am", "Como Un Perfume a Tus Pies", "Tal Como Soy","A Sus Pies"
+  "With All I Am", "Como Un Perfume a Tus Pies", "Tal Como Soy","A Sus Pies", "Vuelve A Casa"
 ]
 
 let artists=[
@@ -39,7 +39,7 @@ let artists=[
   "Daniel Calveti", "Hillsong","Hillsong","Jesús Adrian Romero",
   "Jesus Adrian Romero","Hillsong","Lyli Goodman","Jesús Adrian Romero","Marcela Gandara",
   "Hillsong","Hillsong","Jesus Adrian Romero","Marcela Gandara","Marcela Gandara",
-  "Hillsong","Marcela Gandara", "Jesús Adrian Romero", "Jesús Adrian Romero"
+  "Hillsong","Marcela Gandara", "Jesús Adrian Romero", "Jesús Adrian Romero","Lyli Goodman"
 ];
 
 let file = ".jpg";
