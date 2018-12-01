@@ -19,15 +19,21 @@ let ext = ".mp3";
 audio = new Audio();
 
 let songs=[
- "Al Estar Ante Ti", "Al Final", "All For Love","Alza tus Ojos",
- "Angel Of The Lord", "Arrebato","At the Cross","Dame Tus Ojos",
- "De tal Manera Me amo","Desert","Esta Es Mi Fe","Here I Am To Worship",
- "I Adore","Here In My Life","Hinno De Victoria","Hombres De Valor","Hoy Te Vengo a Bendecir",
-  "I Belong To You","I Give You My Heart","I Will Love","I Will Run To You", "Iglesia",
-  "La Niña de Tus Ojos", "Oceans Will Part","Open My Eyes","Por Un Destello De Tu Gloria",
-  "Que seria de mi","Shout to the Lord","Sin Dolor","Sumergeme","Supe Que Me Amabas",
-  "The Heart Of Worship","The Power Of Your Love","Tu Estas Aqui","Un Viaje Largo","Vine Adorarte",
-  "With All I Am", "Como Un Perfume a Tus Pies", "Tal Como Soy","A Sus Pies", "Vuelve A Casa"
+ "Al Estar Ante Ti", "Al Final", "All For Love", "Alza tus Ojos",
+    "Angel Of The Lord", "Arrebato", "At the Cross", "Dame Tus Ojos",
+    "De tal Manera Me amo", "Desert", "Esta Es Mi Fe", "Here I Am To Worship",
+    "I Adore", "Here In My Life", "Hinno De Victoria", "Hombres De Valor", "Hoy Te Vengo a Bendecir",
+    "I Belong To You", "I Give You My Heart", "I Will Love", "I Will Run To You", "Iglesia",
+    "La Niña de Tus Ojos", "Oceans Will Part", "Open My Eyes", "Por Un Destello De Tu Gloria",
+    "Que seria de mi", "Shout to the Lord", "Sin Dolor", "Sumergeme", "Supe Que Me Amabas",
+    "The Heart Of Worship", "The Power Of Your Love", "Tu Estas Aqui", "Un Viaje Largo", "Vine Adorarte",
+    "With All I Am", "Como Un Perfume a Tus Pies", "Tal Como Soy", "A Sus Pies",
+    "Al Que Esta Sentado En El Trono", "Aqui Estas", "Como En El Cielo", "Cristo Yo Te Amo",
+    "Dame Un Nuevo Corazon", "En El Trono Esta", "Fija Tus Ojos En Cristo", "Holy Holy Holy Lord God Almighty",
+    "Holy Spirit come And Fill This Place", "Hosanna", "I Surrender", "Lo Haras Otra Vez",
+    "Lo Unico Que Quiero", "Quien Dices Que Soy", "Santo Santo Es El Señor", "This I Believe",
+    "Through It All", "Tu Eres Santo", "Vasijas Rotas", "What A Beautiful Name",
+    "Worthy Is The Lamb", "Vuelve A Casa"
 ]
 
 let artists=[
