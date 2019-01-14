@@ -22,7 +22,7 @@ const toggle = document.querySelector('.toggle');
 const songBtn = document.querySelector('#songToggle');
 let change = false;
 songBtn.addEventListener('click', () => {
-    ul.classList.toggle('toggle');
+    toggle.classList.toggle('toggle');
     if(change){
         change = false ;
       songBtn.textContent = "Show Songs";
