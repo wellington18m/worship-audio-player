@@ -18,8 +18,8 @@ let dir = "music/";
 let ext = ".mp3";
 audio = new Audio();
 
-const toggle = document.querySelector('.toggle');
-const songBtn = document.querySelector('#songToggle');
+let toggle = document.querySelector('.toggle');
+let songBtn = document.querySelector('#songToggle');
 let change = false;
 songBtn.addEventListener('click', () => {
     toggle.classList.toggle('toggle');
