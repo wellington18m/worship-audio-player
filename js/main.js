@@ -18,17 +18,17 @@ let dir = "music/";
 let ext = ".mp3";
 audio = new Audio();
 
-const ul = document.querySelector('ul');
-const btn = document.querySelector('button');
+const toggle = document.querySelector('.toggle');
+const songBtn = document.querySelector('#songToggle');
 let change = false;
-btn.addEventListener('click', () => {
+songBtn.addEventListener('click', () => {
     ul.classList.toggle('toggle');
     if(change){
         change = false ;
-      btn.textContent = "Show Songs";
+      songBtn.textContent = "Show Songs";
     }else{
       change= true;
-      btn.textContent = "Hide Songs";
+      songBtn.textContent = "Hide Songs";
     }
 });
 
