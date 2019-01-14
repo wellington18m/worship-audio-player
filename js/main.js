@@ -33,7 +33,7 @@ let songs=[
     "Holy Spirit come And Fill This Place", "Hosanna", "I Surrender", "Lo Haras Otra Vez",
     "Lo Unico Que Quiero", "Quien Dices Que Soy", "Santo Santo Es El Señor", "This I Believe",
     "Through It All", "Tu Eres Santo", "Vasijas Rotas", "What A Beautiful Name",
-    "Worthy Is The Lamb", "Vuelve A Casa"
+    "Worthy Is The Lamb", "Vuelve A Casa", "Cuando Oras", "Este Es El Tiempo", "Tu Arte En Mi"
 ]
 
 let artists=[
@@ -45,7 +45,8 @@ let artists=[
   "Daniel Calveti", "Hillsong","Hillsong","Jesús Adrian Romero",
   "Jesus Adrian Romero","Hillsong","Lyli Goodman","Jesús Adrian Romero","Marcela Gandara",
   "Hillsong","Hillsong","Jesus Adrian Romero","Marcela Gandara","Marcela Gandara",
-  "Hillsong","Marcela Gandara", "Jesús Adrian Romero", "Jesús Adrian Romero","Lyli Goodman"
+  "Hillsong","Marcela Gandara", "Jesús Adrian Romero", "Jesús Adrian Romero","Lyli Goodman",
+  "Nancy Amancio", "Nanci Amauncio", "Rocio Crooke"
 ];
 
 let file = ".jpg";
