@@ -18,6 +18,20 @@ let dir = "music/";
 let ext = ".mp3";
 audio = new Audio();
 
+const ul = document.querySelector('ul');
+const btn = document.querySelector('button');
+let change = false;
+btn.addEventListener('click', () => {
+    ul.classList.toggle('toggle');
+    if(change){
+        change = false ;
+      btn.textContent = "Show Songs";
+    }else{
+      change= true;
+      btn.textContent = "Hide Songs";
+    }
+});
+
 let songs=[
  "Al Estar Ante Ti", "Al Final", "All For Love", "Alza tus Ojos",
     "Angel Of The Lord", "Arrebato", "At the Cross", "Dame Tus Ojos",
