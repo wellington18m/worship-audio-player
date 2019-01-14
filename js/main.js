@@ -18,19 +18,6 @@ let dir = "music/";
 let ext = ".mp3";
 audio = new Audio();
 
-let toggle = document.querySelector('.toggle');
-let songBtn = document.querySelector('#songToggle');
-let change = false;
-songBtn.addEventListener('click', () => {
-    toggle.classList.toggle('toggle');
-    if(change){
-        change = false ;
-      songBtn.textContent = "Show Songs";
-    }else{
-      change= true;
-      songBtn.textContent = "Hide Songs";
-    }
-});
 
 let songs=[
  "Al Estar Ante Ti", "Al Final", "All For Love", "Alza tus Ojos",
