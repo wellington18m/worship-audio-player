@@ -16,55 +16,6 @@
 	 
 }
 
-.toggle{
-   display: none;
-    
-
-}
-
-#songs{
-  margin-left: 500px;
-
-}
-
-
-#songToggle{
- display: inline-block;
- margin-left: 600px;
- outline: none;
- cursor: pointer;
- padding:5px;
- font-size: 20px;
- box-shadow: 4px 4px 2px 2px #6f6347;
- position: relative;
- border:none;
- background: tomato;
-
-}
-
-#songToggle:hover{
-  top: 2px;
-  box-shadow: 2px 2px 1px 1px #6f6347
-}
-
-#songToggle:active{
-  top: 0;
-  box-shadow: none;
-}
-
-
-
-
-.notify{
-  width:90%;
- margin: 0 auto;
-}
-
-
-
-
-
-
 
 .audio-cover{
 	
