@@ -23,14 +23,14 @@
 }
 
 #songs{
-  margin-left: 400px;
+  margin-left: 550px;
 
 }
 
 
 #songToggle{
  display: inline-block;
- margin-left: 500px;
+ margin-left: 650px;
  outline: none;
  cursor: pointer;
  padding:5px;
