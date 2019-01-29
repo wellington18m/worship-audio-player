@@ -80,6 +80,11 @@ body{
  cursor: pointer;	
 }
 
+.modelBody ul#addedSongs li:hover{
+  color: #333;
+  cursor: pointer;
+}
+
 .modelFooter h3, p{
   margin: 0;
 }
