@@ -16,6 +16,9 @@ let li = document.getElementsByTagName("li");
 let img = document.querySelector(".cover");
 let dir = "music/";
 let ext = ".mp3";
+let modelBtn = document.querySelector('#modelBtn');
+ let model = document.querySelector('#model');
+ let closeBtn = document.querySelector('.closeBtn');
 audio = new Audio();
 
 
@@ -60,6 +63,30 @@ let images = ["img1", "img2","img3","img4","cover","img5","img6",
                "img19","img20","img21","img22","img23","img24",
                "img25","img26","img27","img28"
 ];
+
+ modelBtn.addEventListener('click', () => {
+  hideModel('block');
+ });
+
+ closeBtn.addEventListener('click', () => {
+  hideModel('none');
+ });
+
+ window.addEventListener('click', (e) => {
+    if(e.target === model) {
+      hideModel('none');
+    }
+ });
+ 
+
+ function hideModel(none) {
+  model.style.display = none;
+ }
+
+
+
+
+
 let random = Math.floor(Math.random()*images.length);
 
  
