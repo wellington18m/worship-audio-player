@@ -34,7 +34,9 @@ let songs=[
     "Holy Spirit come And Fill This Place", "Hosanna", "I Surrender", "Lo Haras Otra Vez",
     "Lo Unico Que Quiero", "Quien Dices Que Soy", "Santo Santo Es El Señor", "This I Believe",
     "Through It All", "Tu Eres Santo", "Vasijas Rotas", "What A Beautiful Name",
-    "Worthy Is The Lamb", "Vuelve A Casa", "Cuando Oras", "Este Es El Tiempo", "Tu Arte En Mi"
+    "Worthy Is The Lamb", "Vuelve A Casa", "Cuando Oras", "Este Es El Tiempo", "Tu Arte En Mi",
+    "Amor Sin Condición", "El no pereció", "El Poder de Tu Amor", "Escucharte hablar", "Sobre todo",
+    "Open the Eyes of My Heart", "Reckless Love", "Si Tu Precencia Conmigo No Va"
 ]
 
 let artists=[
