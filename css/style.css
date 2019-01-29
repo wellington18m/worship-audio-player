@@ -75,8 +75,9 @@ body{
   padding:10px 20px;
 }
 
-.modelBody ul{
+.modelBody ul#addedSongs{
   color: rgb(15, 130, 165);
+ cursor: pointer;	
 }
 
 .modelFooter h3, p{
