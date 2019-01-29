@@ -75,6 +75,10 @@ body{
   padding:10px 20px;
 }
 
+.modelBody ul{
+  color: rgb(15, 130, 165);
+}
+
 .modelFooter h3, p{
   margin: 0;
 }
