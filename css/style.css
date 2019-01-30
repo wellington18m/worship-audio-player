@@ -75,12 +75,12 @@ body{
   padding:10px 20px;
 }
 
-.modelBody ul#addedSongs{
+.modelBody div#addedSongs{
   color: rgb(15, 130, 165);
  cursor: pointer;	
 }
 
-.modelBody ul#addedSongs li:hover{
+.modelBody div#addedSongs p:hover{
   color: #333;
   cursor: pointer;
 }
