@@ -65,9 +65,10 @@ let images = ["img1", "img2","img3","img4","cover","img5","img6",
                "img25","img26","img27","img28"
 ];
 
- modelBtn.addEventListener('click', () => {
+ window.onload = function() {
   hideModel('block');
- });
+  
+}
 
  closeBtn.addEventListener('click', () => {
   hideModel('none');
