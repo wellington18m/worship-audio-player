@@ -39,7 +39,8 @@ let songs=[
     "Through It All", "Tu Eres Santo", "Vasijas Rotas", "What A Beautiful Name",
     "Worthy Is The Lamb", "Vuelve A Casa", "Cuando Oras", "Este Es El Tiempo", "Tu Arte En Mi",
     "Amor Sin Condición", "El no pereció", "El Poder de Tu Amor", "Escucharte hablar", "Sobre todo",
-    "Open the Eyes of My Heart", "Reckless Love", "Si Tu Precencia Conmigo No Va"
+    "Open the Eyes of My Heart", "Reckless Love", "Si Tu Precencia Conmigo No Va", "Creo En Ti",
+    "Digno Es El Señor", "Llevame A Tus Atrios", "Mas Grande", "Que Me Falte Todo", "Rey", "Tomame De Tu Mano"
 ]
 
 let artists=[
