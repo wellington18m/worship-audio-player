@@ -14,6 +14,8 @@ let songTitle = document.querySelector('.songTitle');
 let songArtist = document.querySelector('.songArtist');
 let li = document.getElementsByTagName("li");
 let img = document.querySelector(".cover");
+let loop = document.querySelector("#loop");
+let looping = false;
 let dir = "music/";
 let ext = ".mp3";
 let modelBtn = document.querySelector('#modelBtn');
@@ -73,6 +75,21 @@ let images = ["img1", "img2","img3","img4","cover","img5","img6",
   hideModel('block');
   
 }
+
+loop.addEventListener("click", ()=> {
+     if(looping){
+      looping = false;
+      audio.loop = false;
+      loop.textContent = "Loop Off"
+     }else{
+      looping = true;
+      audio.loop = true;
+      loop.textContent = "Loop On"
+     }
+     
+     
+})
+ 
 
  closeBtn.addEventListener('click', () => {
   hideModel('none');
