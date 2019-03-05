@@ -44,7 +44,7 @@ let songs=[
     "Open the Eyes of My Heart", "Reckless Love", "Si Tu Precencia Conmigo No Va", "Creo En Ti",
     "Digno Es El Señor", "Llevame A Tus Atrios", "Mas Grande", "Que Me Falte Todo", "Rey", "Tomame De Tu Mano",
     "God's Great Dance Floor", "Goodness Of God", "No Longer Slaves", "Tu Amor Es Real", "Tu Mereces", "De Tal Manera",
-    "El Asaltante", "Ella No Cree En El Amor", "La Droga Y El Sida", "Pura Sal", "Quien Contra Mi", 
+    "Digno Y Santo", "El Asaltante", "Ella No Cree En El Amor", "La Droga Y El Sida", "Pura Sal", "Quien Contra Mi", 
 	"Trapstorno", "Raphy Mendez (Parte 1)", "Raphy Mendez (Parte 2)", "Raphy Mendez (Parte 3)", "Raphy Mendez (Parte 4)"
 
 ]
