@@ -25,9 +25,7 @@ audio = new Audio();
 
 
 let songs=[
- "Amor Sin Fin", "As You Find Me", "El Extraordinario", "Gloria En Gloria",
- "Great Are You Lord", "Hay Libertad", "Muestrame Tu Gloria", "No Estoy Solo", "Sé Que Estás Aquí", 
-"Vamos A Cantar", "Yahweh", "Al Estar Ante Ti", "Al Final", "All For Love", "Alza tus Ojos",
+ "Al Estar Ante Ti", "Al Final", "All For Love", "Alza tus Ojos",
  "Angel Of The Lord", "Arrebato", "At the Cross", "Dame Tus Ojos", "De tal Manera Me amo", "Desert",
  "Esta Es Mi Fe", "Here I Am To Worship","I Adore", "Here In My Life", "Hinno De Victoria", "Hombres De Valor", 
 "Hoy Te Vengo a Bendecir", "I Belong To You", "I Give You My Heart", "I Will Love", "I Will Run To You", "Iglesia",
@@ -46,7 +44,9 @@ let songs=[
     "Digno Es El Señor", "Llevame A Tus Atrios", "Mas Grande", "Que Me Falte Todo", "Rey", "Tomame De Tu Mano",
     "God's Great Dance Floor", "Goodness Of God", "No Longer Slaves", "Tu Amor Es Real", "Tu Mereces", "De Tal Manera",
     "Digno Y Santo", "El Asaltante", "Ella No Cree En El Amor", "La Droga Y El Sida", "Pura Sal", "Quien Contra Mi", 
-	"Trapstorno", "Raphy Mendez (Parte 1)", "Raphy Mendez (Parte 2)", "Raphy Mendez (Parte 3)", "Raphy Mendez (Parte 4)"
+    "Trapstorno", "Raphy Mendez (Parte 1)", "Raphy Mendez (Parte 2)", "Raphy Mendez (Parte 3)", "Raphy Mendez (Parte 4)",
+   "Amor Sin Fin", "As You Find Me", "El Extraordinario", "Gloria En Gloria", "Great Are You Lord", "Hay Libertad", 
+   "Muestrame Tu Gloria", "No Estoy Solo", "Sé Que Estás Aquí", "Vamos A Cantar", "Yahweh"
 
 ]
 
