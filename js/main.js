@@ -26,13 +26,11 @@ audio = new Audio();
 
 let songs=[
  "Amor Sin Fin", "As You Find Me", "El Extraordinario", "Gloria En Gloria",
- "Great Are You Lord", "Hay Libertad", "Muestrame Tu Gloria", "No Estoy Solo",
- "Sé Que Estás Aquí", "Vamos A Cantar", "Yahweh"
- "Al Estar Ante Ti", "Al Final", "All For Love", "Alza tus Ojos",
-    "Angel Of The Lord", "Arrebato", "At the Cross", "Dame Tus Ojos",
-    "De tal Manera Me amo", "Desert", "Esta Es Mi Fe", "Here I Am To Worship",
-    "I Adore", "Here In My Life", "Hinno De Victoria", "Hombres De Valor", "Hoy Te Vengo a Bendecir",
-    "I Belong To You", "I Give You My Heart", "I Will Love", "I Will Run To You", "Iglesia",
+ "Great Are You Lord", "Hay Libertad", "Muestrame Tu Gloria", "No Estoy Solo", "Sé Que Estás Aquí", 
+"Vamos A Cantar", "Yahweh", "Al Estar Ante Ti", "Al Final", "All For Love", "Alza tus Ojos",
+ "Angel Of The Lord", "Arrebato", "At the Cross", "Dame Tus Ojos", "De tal Manera Me amo", "Desert",
+ "Esta Es Mi Fe", "Here I Am To Worship","I Adore", "Here In My Life", "Hinno De Victoria", "Hombres De Valor", 
+"Hoy Te Vengo a Bendecir", "I Belong To You", "I Give You My Heart", "I Will Love", "I Will Run To You", "Iglesia",
     "La Niña de Tus Ojos", "Oceans Will Part", "Open My Eyes", "Por Un Destello De Tu Gloria",
     "Que seria de mi", "Shout to the Lord", "Sin Dolor", "Sumergeme", "Supe Que Me Amabas",
     "The Heart Of Worship", "The Power Of Your Love", "Tu Estas Aqui", "Un Viaje Largo", "Vine Adorarte",
