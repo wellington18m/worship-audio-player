@@ -25,6 +25,9 @@ audio = new Audio();
 
 
 let songs=[
+ "Amor Sin Fin", "As You Find Me", "El Extraordinario", "Gloria En Gloria",
+ "Great Are You Lord", "Hay Libertad", "Muestrame Tu Gloria", "No Estoy Solo",
+ "Sé Que Estás Aquí", "Vamos A Cantar", "Yahweh"
  "Al Estar Ante Ti", "Al Final", "All For Love", "Alza tus Ojos",
     "Angel Of The Lord", "Arrebato", "At the Cross", "Dame Tus Ojos",
     "De tal Manera Me amo", "Desert", "Esta Es Mi Fe", "Here I Am To Worship",
