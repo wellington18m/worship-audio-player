@@ -56,7 +56,7 @@ let artists=[
  "Abel Zabala","Hillsong","Egleyda Belliard","Hillsong",
  "Hillsong","Hillsong","Danny Berrios","Hombres De Valor","Jesús Adrian Romero",
   "Hillsong","Hillsong","Hillsong","Hillsong", "Hillsong",
-  "Daniel Calveti", "Hillsong","Hillsong","Jesús Adrian Romero",
+  "Daniel Calveti", "Hillsong","Hillsong","Jesús Adrian Romero", 
   "Jesus Adrian Romero","Hillsong","Lyli Goodman","Jesús Adrian Romero","Marcela Gandara",
   "Hillsong","Hillsong","Jesus Adrian Romero","Marcela Gandara","Marcela Gandara",
   "Hillsong","Marcela Gandara", "Jesús Adrian Romero", "Jesús Adrian Romero","Lyli Goodman",
