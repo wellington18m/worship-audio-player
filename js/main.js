@@ -1,4 +1,4 @@
-/*
+
 let audio; 
 let play = document.getElementById("play");
 let pause = document.getElementById("pause");
@@ -392,4 +392,4 @@ search.addEventListener("keyup",()=>{
 
 })
 
-setInterval(updateSlider, 1000)*/
+setInterval(updateSlider, 1000)
