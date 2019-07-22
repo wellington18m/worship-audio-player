@@ -47,7 +47,9 @@ let songs=[
     "Digno Y Santo", "El Asaltante", "Ella No Cree En El Amor", "La Droga Y El Sida", "Pura Sal", "Quien Contra Mi", 
     "Trapstorno", "Raphy Mendez (Parte 1)", "Raphy Mendez (Parte 2)", "Raphy Mendez (Parte 3)", "Raphy Mendez (Parte 4)",
    "Amor Sin Fin", "As You Find Me", "El Extraordinario", "Gloria En Gloria", "Great Are You Lord", "Hay Libertad", 
-   "Muestrame Tu Gloria", "No Estoy Solo", "Sé Que Estás Aquí", "Vamos A Cantar", "Yahweh"
+   "Muestrame Tu Gloria", "No Estoy Solo", "Sé Que Estás Aquí", "Vamos A Cantar", "Yahweh", "Al Que Me Ciñe De Poder",
+   "De Gloria En Gloria Marco Barrientos", "Dios De Lo Imposible", "El Nombre De Jesús", "La Cosecha ( Sera Llena la tierra )",
+   "Los Muros caerán", "No Hay Lugar Mas Alto", "Te Alabaré Mi Buen Jesús", "Tu Mano Me Sostiene", "Ven Es Hora De Adorarle"
 
 ]
 
