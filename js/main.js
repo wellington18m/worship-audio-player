@@ -28,28 +28,29 @@ audio = new Audio();
 let songs=[
  "Al Estar Ante Ti", "Al Final", "All For Love", "Alza tus Ojos",
  "Angel Of The Lord", "Arrebato", "At the Cross", "Dame Tus Ojos", "De tal Manera Me amo", "Desert",
- "Esta Es Mi Fe", "Here I Am To Worship","I Adore", "Here In My Life", "Hinno De Victoria", "Hombres De Valor", 
+ "Esta Es Mi Fe", "Here I Am To Worship","I Adore", "Here In My Life", "Hombres De Valor", 
 "Hoy Te Vengo a Bendecir", "I Belong To You", "I Give You My Heart", "I Will Love", "I Will Run To You", "Iglesia",
     "La Niña de Tus Ojos", "Oceans Will Part", "Open My Eyes", "Por Un Destello De Tu Gloria",
     "Que seria de mi", "Shout to the Lord", "Sin Dolor", "Sumergeme", "Supe Que Me Amabas",
     "The Heart Of Worship", "The Power Of Your Love", "Tu Estas Aqui", "Un Viaje Largo", "Vine Adorarte",
     "With All I Am", "Como Un Perfume a Tus Pies", "Tal Como Soy", "A Sus Pies",
     "Al Que Esta Sentado En El Trono", "Aqui Estas", "Como En El Cielo", "Cristo Yo Te Amo",
-    "Dame Un Nuevo Corazon", "En El Trono Esta", "Fija Tus Ojos En Cristo", "Holy Holy Holy Lord God Almighty",
-    "Holy Spirit come And Fill This Place", "Hosanna", "I Surrender", "Lo Haras Otra Vez",
-    "Lo Unico Que Quiero", "Quien Dices Que Soy", "Santo Santo Es El Señor", "This I Believe",
+    "Dame Un Nuevo Corazon", "En El Trono Esta", "Fija Tus Ojos En Cristo",
+    "Holy Spirit come And Fill This Place","I Surrender", "Lo Haras Otra Vez",
+    "Lo Unico Que Quiero", "Quien Dices Que Soy", "Santo Santo Es El Señor",
     "Through It All", "Tu Eres Santo", "Vasijas Rotas", "What A Beautiful Name",
     "Worthy Is The Lamb", "Vuelve A Casa", "Cuando Oras", "Este Es El Tiempo", "Tu Arte En Mi",
     "Amor Sin Condición", "El no pereció", "El Poder de Tu Amor", "Escucharte hablar", "Sobre todo",
-    "Open the Eyes of My Heart", "Reckless Love", "Si Tu Precencia Conmigo No Va", "Creo En Ti",
+    "Open the Eyes of My Heart", "Si Tu Precencia Conmigo No Va", "Creo En Ti",
     "Digno Es El Señor", "Llevame A Tus Atrios", "Mas Grande", "Que Me Falte Todo", "Rey", "Tomame De Tu Mano",
-    "God's Great Dance Floor", "Goodness Of God", "No Longer Slaves", "Tu Amor Es Real", "Tu Mereces", "De Tal Manera",
+    "Goodness Of God", "No Longer Slaves", "Tu Mereces",
     "Digno Y Santo", "El Asaltante", "Ella No Cree En El Amor", "La Droga Y El Sida", "Pura Sal", "Quien Contra Mi", 
     "Trapstorno", "Raphy Mendez (Parte 1)", "Raphy Mendez (Parte 2)", "Raphy Mendez (Parte 3)", "Raphy Mendez (Parte 4)",
-   "Amor Sin Fin", "As You Find Me", "El Extraordinario", "Gloria En Gloria", "Great Are You Lord", "Hay Libertad", 
+   "Amor Sin Fin", "El Extraordinario", "Gloria En Gloria", "Great Are You Lord", "Hay Libertad", 
    "Muestrame Tu Gloria", "No Estoy Solo", "Sé Que Estás Aquí", "Vamos A Cantar", "Yahweh", "Al Que Me Ciñe De Poder",
    "De Gloria En Gloria Marco Barrientos", "Dios De Lo Imposible", "El Nombre De Jesús", "La Cosecha ( Sera Llena la tierra )",
-   "Los Muros caerán", "No Hay Lugar Mas Alto", "Te Alabaré Mi Buen Jesús", "Tu Mano Me Sostiene", "Ven Es Hora De Adorarle"
+   "Los Muros caerán", "No Hay Lugar Mas Alto", "Te Alabaré Mi Buen Jesús", "Tu Mano Me Sostiene", "Ven Es Hora De Adorarle",
+  "Jesus Señor De La Creación", "Dios De Pactos", "Cuando Levanto Mis Manos"
 
 ]
 
