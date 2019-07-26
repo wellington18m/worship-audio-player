@@ -32,7 +32,7 @@ let songs=[
 "Hoy Te Vengo a Bendecir", "I Belong To You", "I Give You My Heart", "I Will Love", "I Will Run To You", "Iglesia",
     "La Niña de Tus Ojos", "Oceans Will Part", "Open My Eyes", "Por Un Destello De Tu Gloria",
     "Que seria de mi", "Shout to the Lord", "Sin Dolor", "Sumergeme", "Supe Que Me Amabas",
-    "The Heart Of Worship", "The Power Of Your Love", "Tu Estas Aqui", "Un Viaje Largo", "Vine Adorarte",
+    "The Heart Of Worship", "The Power Of Your Love", "Tu Estas Aqui", "Un Viaje Largo", "Vine A Adorarte",
     "With All I Am", "Como Un Perfume a Tus Pies", "Tal Como Soy", "A Sus Pies",
     "Al Que Esta Sentado En El Trono", "Aqui Estas", "Como En El Cielo", "Cristo Yo Te Amo",
     "Dame Un Nuevo Corazon", "En El Trono Esta", "Fija Tus Ojos En Cristo",
@@ -50,7 +50,8 @@ let songs=[
    "Muestrame Tu Gloria", "No Estoy Solo", "Sé Que Estás Aquí", "Vamos A Cantar", "Yahweh", "Al Que Me Ciñe De Poder",
    "De Gloria En Gloria Marco Barrientos", "Dios De Lo Imposible", "El Nombre De Jesús", "La Cosecha ( Sera Llena la tierra )",
    "Los Muros caerán", "No Hay Lugar Mas Alto", "Te Alabaré Mi Buen Jesús", "Tu Mano Me Sostiene", "Ven Es Hora De Adorarle",
-  "Jesus Señor De La Creación", "Dios De Pactos", "Cuando Levanto Mis Manos"
+  "Jesus Señor De La Creación", "Dios De Pactos", "Cuando Levanto Mis Manos", "Buscando Una Señal", "Ven Espíritu ven", "Gracias",
+  "Enciende Una Luz"
 
 ]
 
