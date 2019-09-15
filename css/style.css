@@ -27,7 +27,9 @@ body{
 {
   background: #A9354F;
   color:#fff;
-  text-align:center
+  text-align:center;
+ padding: 10px;
+text-transform: uppercase;
  
 }
 
