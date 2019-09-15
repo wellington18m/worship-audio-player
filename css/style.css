@@ -23,6 +23,14 @@ body{
   line-height: 1.6;
 }
 
+.displaySongs
+{
+  background: #A9354F;
+  color:#fff;
+  text-align:center
+ 
+}
+
 .container-fluid{
   margin-top: 5%;
 }
