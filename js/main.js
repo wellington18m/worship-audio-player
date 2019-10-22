@@ -48,7 +48,7 @@ let songs=[
     "Trapstorno", "Raphy Mendez (Parte 1)", "Raphy Mendez (Parte 2)", "Raphy Mendez (Parte 3)", "Raphy Mendez (Parte 4)",
    "Amor Sin Fin", "El Extraordinario", "Gloria En Gloria", "Great Are You Lord", "Hay Libertad", 
    "Muestrame Tu Gloria", "No Estoy Solo", "Sé Que Estás Aquí", "Vamos A Cantar", "Yahweh", "Al Que Me Ciñe De Poder",
-   "De Gloria En Gloria Marco Barrientos", "Dios De Lo Imposible", "El Nombre De Jesús", "La Cosecha ( Sera Llena la tierra )",
+   "De Gloria En Gloria Marco Barrientos", "Dios De Lo Imposible", "El Nombre De Jesús", "La Cosecha (Sera Llena la tierra)",
    "Los Muros caerán", "No Hay Lugar Mas Alto", "Te Alabaré Mi Buen Jesús", "Tu Mano Me Sostiene", "Ven Es Hora De Adorarle",
   "Jesus Señor De La Creación", "Dios De Pactos", "Cuando Levanto Mis Manos", "Buscando Una Señal", "Ven Espíritu ven", "Gracias",
   "Enciende Una Luz", "Jesucristo Basta", "Salmo 23", "Solo Cristo", "Poderoso Para Salvar", "Gracia Sublime Es - En Espíritu y en Verdad"
