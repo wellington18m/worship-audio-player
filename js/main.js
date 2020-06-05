@@ -51,7 +51,8 @@ let songs=[
    "De Gloria En Gloria Marco Barrientos", "Dios De Lo Imposible", "El Nombre De Jesús", "La Cosecha (Sera Llena la tierra)",
    "Los Muros caerán", "No Hay Lugar Mas Alto", "Te Alabaré Mi Buen Jesús", "Tu Mano Me Sostiene", "Ven Es Hora De Adorarle",
   "Jesus Señor De La Creación", "Dios De Pactos", "Cuando Levanto Mis Manos", "Buscando Una Señal", "Ven Espíritu ven", "Gracias",
-  "Enciende Una Luz", "Jesucristo Basta", "Salmo 23", "Solo Cristo", "Poderoso Para Salvar", "Gracia Sublime Es - En Espíritu y en Verdad"
+  "Enciende Una Luz", "Jesucristo Basta", "Salmo 23", "Solo Cristo", "Poderoso Para Salvar", "Gracia Sublime Es - En Espíritu y en Verdad",
+  "Espírito Santo", "Cubreme", "LLÉVAME A TU CASA MARCOS BRUNET"
 
 ]
 
